@@ -1,15 +1,72 @@
-
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Corporate Website UI/UX Design</title>
-    </head>
-
-    <body>
-      <div id="root"></div>
-      <script type="module" src="/src/main.tsx"></script>
-    </body>
-  </html>
-  
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>رسالة الشركة</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    .email-container {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .header {
+      background-color: #003366;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+    .header img {
+      max-height: 80px;
+      margin-bottom: 10px;
+    }
+    .header h2 {
+      margin: 0;
+      font-size: 24px;
+    }
+    .content {
+      padding: 20px;
+      color: #333333;
+      line-height: 1.6;
+    }
+    .footer {
+      background-color: #f0f0f0;
+      color: #555555;
+      text-align: center;
+      padding: 15px;
+      font-size: 12px;
+    }
+    a {
+      color: #003366;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="header">
+      <!-- ضع رابط الشعار الصحيح هنا -->
+      <img src="https://yourdomain.com/logo.png" alt="شعار الشركة">
+      <h2>شركة الكيان</h2>
+    </div>
+    <div class="content">
+      <p>مرحبًا [اسم العميل]،</p>
+      <p>هذه رسالة رسمية من شركة الكيان. نشكرك على تواصلك معنا ونسعد بخدمتك.</p>
+      <p>لأي استفسار، يمكنك التواصل معنا عبر البريد الإلكتروني أو الهاتف.</p>
+      <p>مع تحيات،<br>فريق شركة الكيان</p>
+    </div>
+    <div class="footer">
+      شركة الكيان | البريد الإلكتروني: info@alkayan.ly | الهاتف: +218 XX XXX XXXX
+    </div>
+  </div>
+</body>
+</html>
